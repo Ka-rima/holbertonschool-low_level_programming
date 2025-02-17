@@ -14,11 +14,11 @@ int main(void)
 	long long longlongType;
 	float floatType;
 
-	printf("\n %ld bytes pour variable de type char ", sizeof(char));
-	printf("\n %ld bytes pour variable de type int ", sizeof(int));
-	printf("\n %ld bytes pour variable de type long", sizeof(long int));
-	printf("\n %ld bytes pour variable de type long long", sizeof(long long int));
-	printf("\n %ld bytes pour vartibale de type float", sizeof(float));
+	printf("Size of a char: %ld\n byte(s)", sizeof(char));
+	printf("Size of an int: %ld\n byte(s)", sizeof(int));
+	printf("Size of a long int: %ld\n byte(s)", sizeof(long int));
+	printf("Size of a long long int: %ld\n byte(s)", sizeof(long long int));
+	printf("Size of a float: %ld\n byte(s)", sizeof(float));
 
 	return (0);
 }
