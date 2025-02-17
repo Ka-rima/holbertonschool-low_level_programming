@@ -20,5 +20,5 @@ int main(void)
 	printf("Size of int: %zu bytes\n", sizeof(longlongType));
 	printf("Size of int: %zu bytes\n", sizeof(floatType));
 
-	Return(0);
+	return(0);
 }
