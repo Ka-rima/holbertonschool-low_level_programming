@@ -13,7 +13,7 @@ int main(void)
 	/** declaration of variables */
 	int i;
 
-	for(i = '0'; i <= '9'; i++)
+	for (i = '0'; i <= '9'; i++)
 	{
 		putchar(i);
 	}
