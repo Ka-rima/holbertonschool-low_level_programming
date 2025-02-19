@@ -13,7 +13,7 @@ int main(void)
 	/** declaration of variables */
 	char i;
 
-	for (i = 'a'; i <= 'z'; --i)
+	for (i = 'z'; i >= 'a'; i--)
 	{
 		putchar(i);
 	}
