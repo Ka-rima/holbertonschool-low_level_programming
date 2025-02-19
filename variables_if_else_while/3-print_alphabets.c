@@ -10,9 +10,10 @@
 
 int main(void)
 {
-        /** declaration of variables */
+	/** declaration of variables */
 	char lowercase = 'a';
 	char uppercase = 'A';
+
 	while (lowercase <= 'z')
 	{
 		putchar(lowercase);
@@ -25,6 +26,6 @@ int main(void)
 	}
 	putchar ('\n');
 
-        return (0);
+	return (0);
 }
 
