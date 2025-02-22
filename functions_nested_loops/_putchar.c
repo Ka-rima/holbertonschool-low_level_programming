@@ -1,25 +1,13 @@
-#include <stdio.h>
-#include <string.h>
-#include <math.h>
+#include <unistd.h>
 
-#define PI 3.142
-
-void sayHello(){
-   printf("Hello World\n");
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
 }
-
-int add(int a, int b){
-   int result;
-   result = a+b;
-   return result;
-}
-
-double area(double radius){
-   double areaofcircle = PI*pow(radius, 2);
-   return areaofcircle;
-}
-
-int length(char *x){
-   return strlen(x);
-}
-
