@@ -18,6 +18,10 @@ int print_last_digit(int r)
 	{
 		_putchar('k');
 	}
+	if (r > 0 && r == 0)
+	{
+		_putchar('k');
+	}
 	return (k);
 }
 
