@@ -15,13 +15,9 @@ int print_last_digit(int r)
 	k = r % 10;
 
 	if (k < 0)
-	{
-		_putchar(-k);
-	}
-	if (r > 0 && r == 0)
-	{
-		_putchar(k + '0');
-	}
+	
+	_putchar(k + '0');
+	
 	return (k);
 }
 
