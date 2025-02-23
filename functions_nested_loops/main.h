@@ -6,6 +6,7 @@ void print_alphabet(void);  /** De©claratin of function print_alphabet */
 void print_alphabet_x10(void); /** Declaration of function print_alphabet_x10 */
 int _islower(int c); /** Function for _islower */
 int _isalpha(int c); /** Function for _iaslpha */
+int print_sign(int n); /** Function for print_sign */
 
 #endif /* MAIN_H */
 
