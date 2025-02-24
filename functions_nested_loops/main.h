@@ -9,6 +9,7 @@ int _isalpha(int c); /** Function for _iaslpha */
 int print_sign(int n); /** Function for print_sign */
 int _abs(int); /** Function of _abs */
 int print_last_digit(int); /** Function of print_last_digit */
+void jack_bauer(void); /** function that prints every minute of the day starting from 00:00 to 23:59.
 
 #endif /* MAIN_H */
 
