@@ -10,6 +10,7 @@ int print_sign(int n); /** Function for print_sign */
 int _abs(int); /** Function of _abs */
 int print_last_digit(int); /** Function of print_last_digit */
 void jack_bauer(void); /** function that prints every minute of the day */
+void times_table(void); /** function that prints the 9 times tables starting with 0 */
 
 #endif /* MAIN_H */
 
