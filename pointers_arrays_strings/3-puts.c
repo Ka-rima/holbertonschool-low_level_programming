@@ -11,6 +11,7 @@ void _puts(char *str)
 {
 
 	while (*str != '\0') /** we stop at the end of the string */
+	str++;
 
 	_putchar(*str);
 	_putchar('\0');
