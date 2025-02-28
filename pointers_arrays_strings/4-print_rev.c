@@ -13,6 +13,9 @@ void print_rev(char *s)
 	int end = 0;
 	char temp;
 
+	while (s[end] != '\0')
+		end++
+
 	while (start < end)
 	{
 		temp = start;
