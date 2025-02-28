@@ -10,7 +10,7 @@
 void _puts(char *str)
 {
 
-	while (*str != '\0') /** we stop at the end of the string */
+	while (*str != '\0')
 	str++;
 
 	_putchar(*str);
