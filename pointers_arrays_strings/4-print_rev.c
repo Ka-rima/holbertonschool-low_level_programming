@@ -11,13 +11,13 @@ void print_rev(char *s)
 {
 	int start = 0;
 	int end = 0;
-	int temp;
+	char temp;
 
 	while (start < end)
 	{
-		temp = s[start];
-		s[start] = s[end];
-		s[end] = temp;
+		temp = start;
+		start = end;
+		end = temp;
 		start++;
 		end--;
 	}
