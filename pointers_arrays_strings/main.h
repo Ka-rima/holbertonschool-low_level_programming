@@ -8,6 +8,7 @@ int _strlen(char *s); /** function that returns the length of a string */
 void _puts(char *str); /** function that prints a string, followed by a new line, to stdout */
 void print_rev(char *s); /** function that prints a string, in reverse, followed by a new line */
 void rev_string(char *s); /** function that reverses a string */
+void puts2(char *str); /** function that prints every other character of a string, starting with the first character */
 
 #endif /* MAIN_H */
 
