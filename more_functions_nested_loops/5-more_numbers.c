@@ -13,7 +13,7 @@ void more_numbers(void)
 	for (times = 0; times < 10; times++)
 	{
 		for (number = 0; number <= 14; number++)
-
+		{
 		if (number >= 10)
 		{
 			_putchar(number / 10 + '0');
@@ -22,4 +22,4 @@ void more_numbers(void)
 		}
 			_putchar('\n');
 	}
-
+}
