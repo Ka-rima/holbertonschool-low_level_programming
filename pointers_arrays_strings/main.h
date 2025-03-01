@@ -10,6 +10,7 @@ void print_rev(char *s); /** function that prints a string, in reverse, followed
 void rev_string(char *s); /** function that reverses a string */
 void puts2(char *str); /** function that prints every other character of a string, starting with the first character */
 void puts_half(char *str); /** function that prints half of a string */
+void print_array(int *a, int n); /** function that prints n elements of an array of integers */
 
 #endif /* MAIN_H */
 
