@@ -8,5 +8,6 @@ int mul(int a, int b); /** function that multiplies two integers */
 void print_numbers(void); /**  function that prints the numbers */
 void print_most_numbers(void); /** function that prints the numbers, from 0 to 9 **/
 void more_numbers(void); /** function that prints 10 times the numbers */
+void print_line(int n); /** function that draws a straight line in the terminal */
 
 #endif /* MAIN_H */
