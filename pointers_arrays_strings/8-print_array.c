@@ -19,7 +19,7 @@ void print_array(int *a, int n)
 		{
 			printf("%d\n", a[i]);
 		}
-	if (i != '0')
+	if (i < n - 1)
 	{
 		printf(", ");
 	}
