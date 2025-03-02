@@ -29,11 +29,12 @@ int main(void)
 					else
 					{	printf("%d", k);
 					}
-					if (k < 100)
+					if (k != 100)
 					{
 						printf(" ");
 					}
 	}
+					printf("\n");
 					return (0);
 }
 
