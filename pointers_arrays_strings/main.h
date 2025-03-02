@@ -13,6 +13,7 @@ void puts_half(char *str); /** function that prints half of a string */
 void print_array(int *a, int n); /** function that prints n elements of an array of integers */
 char *_strcpy(char *dest, char *src); /** function that copies the string pointed to by src
 including the terminating null byte (\0), to the buffer pointed to by dest */
+char *_strcat(char *dest, char *src); /**  function that concatenates two strings */
 
 #endif /* MAIN_H */
 
