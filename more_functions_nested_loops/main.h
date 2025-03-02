@@ -11,5 +11,6 @@ void more_numbers(void); /** function that prints 10 times the numbers */
 void print_line(int n); /** function that draws a straight line in the terminal */
 void print_diagonal(int n); /** function that draws a diagonal line */
 void print_square(int size); /** function that prints a square */
+void print_triangle(int size); /** function that prints a triangle */
 
 #endif /* MAIN_H */
