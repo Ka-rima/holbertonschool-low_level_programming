@@ -14,6 +14,7 @@ void print_array(int *a, int n); /** function that prints n elements of an array
 char *_strcpy(char *dest, char *src); /** function that copies the string pointed to by src
 including the terminating null byte (\0), to the buffer pointed to by dest */
 char *_strcat(char *dest, char *src); /**  function that concatenates two strings */
+int _atoi(char *s); /**  function that convert a string to an integer */
 
 #endif /* MAIN_H */
 
