@@ -26,10 +26,7 @@ int main(void)
 		{
 			printf("FizzBuzz");
 		}
-		else
-		{
-			printf("%d", k);
-		}
+
 		printf("\n");
 	}
 		return (0);
