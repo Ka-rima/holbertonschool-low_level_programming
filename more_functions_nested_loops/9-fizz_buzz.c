@@ -29,7 +29,10 @@ int main(void)
 					else
 					{	printf("%d", k);
 					}
+					if (k < 100)
+					{
 						printf(" ");
+					}
 	}
 					return (0);
 }
