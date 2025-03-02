@@ -29,6 +29,7 @@ int main(void)
 					else
 					{	printf("%d", k);
 					}
+						printf(" ");
 	}
 					return (0);
 }
