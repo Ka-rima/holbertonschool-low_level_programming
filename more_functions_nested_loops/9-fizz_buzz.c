@@ -14,21 +14,23 @@ int main(void)
 
 	for (k = 1; k <= 100; k++)
 	{
-		if (k % 3 == 0)
-		{
-			printf("Fizz");
-		}
-		if (k % 5 == 0)
-		{
-			printf("Buzz");
-		}
 		if (k % 3 == 0 && k % 5 == 0)
 		{
 			printf("FizzBuzz");
 		}
-
-		printf("\n");
+			else if (k % 3 == 0)
+			{
+				printf("Fizz");
+			}
+				else if (k % 5 == 0)
+				{
+					printf("Buzz");
+				}
+					else
+					{	printf("%d", k);
+					}
+					printf("\n");
 	}
-		return (0);
+					return (0);
 }
 
