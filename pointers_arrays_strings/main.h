@@ -15,6 +15,6 @@ char *_strcpy(char *dest, char *src); /** function that copies the string pointe
 including the terminating null byte (\0), to the buffer pointed to by dest */
 char *_strcat(char *dest, char *src); /**  function that concatenates two strings */
 int _atoi(char *s); /**  function that convert a string to an integer */
-
+char *_strncat(char *dest, char *src, int n); /** function that concatenates two strings */
 #endif /* MAIN_H */
 

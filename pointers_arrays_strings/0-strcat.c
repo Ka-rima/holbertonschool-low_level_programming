@@ -16,7 +16,11 @@ char *_strcat(char *dest, char *src)
 	{
 		dest++;
 	}
-	*dest = *src;
+	if (*src != '\0')
+	{
+		*dest = *src;
+		src++;
+	}
 
 	return (dest);
 }
