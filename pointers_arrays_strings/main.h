@@ -16,5 +16,7 @@ including the terminating null byte (\0), to the buffer pointed to by dest */
 char *_strcat(char *dest, char *src); /**  function that concatenates two strings */
 int _atoi(char *s); /**  function that convert a string to an integer */
 char *_strncat(char *dest, char *src, int n); /** function that concatenates two strings */
+char *_memset(char *s, char b, unsigned int n); /** function that fills memory with a constant byte */
+
 #endif /* MAIN_H */
 
